@@ -1,8 +1,8 @@
 <?php
 class Home
 {
-    public function __construct()
+    public function index()
     {
-        echo "Home Page";
+        echo "Home Page, Hello World!";
     }
 }
