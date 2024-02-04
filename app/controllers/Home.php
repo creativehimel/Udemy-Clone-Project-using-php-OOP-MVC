@@ -1,8 +1,8 @@
 <?php
-class Home
+class Home extends Controller
 {
     public function index()
     {
-        echo "Home Page, Hello World!";
+        $this->view("home");
     }
 }
